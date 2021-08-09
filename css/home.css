@@ -1,0 +1,343 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	line-height: 1.58824;
+    letter-spacing: 0em;
+    font-family: "SF Pro KR","SF Pro Text","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+    overflow-x: hidden;
+	overflow-y: auto;
+}
+.main{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+/* <!-- 공통 --> */
+.button {
+    color: #06c;
+    letter-spacing: inherit;
+    cursor: pointer;
+}
+.more_info:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.buy:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.try:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.home {
+    text-align: center;
+    cursor: pointer;
+}
+.big.buy {
+    margin-left: 52px;
+}
+.big.title {
+	line-height: 1.47865;
+    font-size: 56px;
+    font-weight: 542;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #1d1d1f;
+    padding-top: 40px;
+}
+.big.subtitle {
+	font-size: 26px;
+    line-height: 0.6538;
+    color: #1d1d1f;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+}
+.big.price.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4em;
+    color: #86868b;
+    letter-spacing: .03em;
+}
+.button.more_info_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.52381;
+    font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.big.button.more_info_wrapper {
+    font-size: 19.9px;
+    line-height: 1.8;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+}
+.more_info_sub_wrapper.black_background {
+	color: #2997ff;
+}
+.black_background.title {
+    color: white;
+}
+.black_background.small_title {
+    color: white;
+}
+.black_background.subtitle {
+    color: white;
+}
+
+/* <!-- 배너 --> */
+.banner_wrapper {
+    display: flex;
+    justify-content: center;
+    color: #1d1d1f;
+    font-size: 13.3px;
+    padding: 12px 0;
+    height: 20px;
+    background-color: #f5f5f7;
+    align-items: center;
+    padding-top: 58px;
+}
+.button.banner_button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.black_background.button.more_info_sub_wrapper {
+    color: #2997ff;
+}
+
+/* <!-- iPhone_12 --> */
+.home.iPhone_12 {
+    background-color: #fbfbfd;
+}
+.iPhone_12.image {
+    height: 342px;
+    background-size: 3010px 624px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/home/ab/images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.big.price.button {
+	color: #86868b;
+}
+.big.price.button.note:hover {
+	color: #06c;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* <!-- iPhone_12_Pro --> */
+.home.iPhone_12_Pro {
+    background-color: black;
+	margin-top: 12px;
+    margin-bottom: 12px;
+}
+.iPhone_12_Pro.image {
+    height: 342px;
+    background-size: 3010px 624px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ab/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    margin: 12px 0 0 0;
+}
+
+/* <!-- iPad_Pro --> */
+.home.iPad_Pro {
+    background-color: black;
+}
+.iPad_Pro.image {
+    height: 412px;
+    background-size: 3010px 624px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ab/images/heroes/ipad-pro/hero_ipad_pro_non_avail__fcrsmhs4b7ma_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    margin: 12px 0 0 0;
+}
+
+/* <!-- home.ETC --> */
+.home.ETC {
+    margin-top: 12px;
+}
+.home.ETC.iMac_Watch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 12px;
+}
+.home.ETC.MacBookAir_Arcade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px;
+}
+.home.ETC.AirTag_AirPodsPro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px;
+}
+
+/* <!-- iMac --> */
+.iMac.background {
+    width: 100%;
+    height: 582px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/imac/promo_imac__crg641tip4q6_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    margin-right: 6px;
+}
+.Watch.background {
+    width: 100%;
+    height: 582px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/home/ab/images/promos/watch-series-6/promo_watch_series_6_lte__f8lrasjnry2y_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    margin-left: 6px;
+}
+.MacBookAir.background {
+    width: 100%;
+    height: 582px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/macbook-air/macbook_air__knzp0i282eyy_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    margin-right: 6px;
+}
+.Arcade.background {
+    width: 100%;
+    height: 582px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/arcade-ultimate-rivals/promo_arcade__e7ps46tldi62_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    margin-left: 6px;
+}
+.AirTag.background {
+	margin-right: 6px;
+    background-color: #fbfbfd;
+    width: 50%;
+}
+.AirTag.image {
+    height: 460px;
+    width: 100%;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/airtag/promo_airtag__e6b73a64nno2_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    margin-right: 6px;
+}
+.AirPodsPro.background {
+	width: 50%;
+    margin-left: 6px;
+    background-color: black;
+}
+.AirPodsPro.image {
+    height: 460px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/airpods-pro/tile__cauwwcyyn9hy_large_2x.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    margin-left: 6px;
+    background-size: 301px 384px;
+    background-color: black;
+}
+.Watch.black_background.Watch.small_title {
+    width: 128px;
+    height: 49px;
+    background-size: 128px 49px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ab/images/logos/watch-series-6/promo_logo_watch_series_6_lte__el1kwqt2v52e_large_2x.png);
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+.Arcade.small_title {
+    width: 152px;
+    height: 34px;
+    background-size: 152px 34px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ab/images/logos/arcade/logo__dcojfwkzna2q_large_2x.png);
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+.button.more_info_sub_wrapper {
+    display: flex;
+}
+
+/* <!-- home.ETC 공통 --> */
+.small_title {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 53px;
+    color: #1d1d1f;
+    margin-block-start: 1.33em;
+}
+.subtitle {
+	margin-top: 0.1em;
+    display: block;
+    font-size: 1.2em;
+    margin-block-end: 0.4em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.small.button.more_info_wrapper {
+    font-size: 16px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .7em;
+    text-align: center;
+}
+.buy {
+    margin-left: 50px;
+}
+.try {
+    margin-left: 50px;
+}
+.button.note {
+    font-size: x-small;
+}
+.more_info_icon::after {
+    content: "〉";
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 6px;
+}
+.arrow_icon::after {
+    content: "↗";
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 6px;
+}
+.small.more_info_icon::after {
+    content: "〉";
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 6px;
+}
+.small.arrow_icon::after {
+    content: "↗";
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 6px;
+}
